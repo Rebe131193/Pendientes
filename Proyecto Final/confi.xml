@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test verbose="2" preserve-order="true" name="/Users/rebecaramirez/IdeaProjects/QAML-Selenium">
+        <classes>
+            <class name="TiendaTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,171 @@
+<html>
+<head>
+<title>TestNG:  /Users/rebecaramirez/IdeaProjects/QAML-Selenium</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>/Users/rebecaramirez/IdeaProjects/QAML-Selenium</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 26 13:43:59 CST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10344 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TiendaTest.Prueba___2()'><b>Prueba___2</b><br>Test class: TiendaTest<br>Test method: PRUEBA_2: Agregamos al carrito y verificamos que este cargado en el carrito<br/>
+<a href="#Output-1317441269" onClick='toggleBox("Output-1317441269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1317441269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1317441269">
+Detalle del producto: Samsung galaxy s7<br/>
+-----<br/>
+https://www.demoblaze.com/prod.html?idp_=4<br/>
+------<br/>
+Agregando producto al carrito de compra...<br/>
+Texto de alerta: Product added<br/>
+Abriendo detalle del carrrito<br/>
+Regresando a la página de inicio<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TiendaTest@2a7b6f69</td></tr>
+<tr>
+<td title='TiendaTest.Prueba___1()'><b>Prueba___1</b><br>Test class: TiendaTest<br>Test method: PRUEBA_1: Entranos al detalle del producto de la pagina inicial<br/>
+<a href="#Output-1011599868" onClick='toggleBox("Output-1011599868", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1011599868" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1011599868">
+Detalle del producto: Samsung galaxy s7<br/>
+-----<br/>
+https://www.demoblaze.com/prod.html?idp_=4<br/>
+------<br/>
+Agregando producto al carrito de compra...<br/>
+Texto de alerta: Product added<br/>
+------------<br/>
+Detalle del producto:<br/>
+Nombre: Samsung galaxy s7<br/>
+Precio: $800 *includes tax<br/>
+Descripción: Product descriptionThe Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB 
+of RAM. The phone packs 32GB of internal storage that can be expanded up
+ to 200GB via a microSD card.<br/>
+------------<br/>
+Regresando a la página de inicio<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TiendaTest@2a7b6f69</td></tr>
+<tr>
+<td title='TiendaTest.Prueba___3()'><b>Prueba___3</b><br>Test class: TiendaTest<br>Test method: PRUEBA_3: Agregamos al carrito un numero X de productos<br/>
+<a href="#Output-737756161" onClick='toggleBox("Output-737756161", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-737756161" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-737756161">
+Detalle del producto: Samsung galaxy s6<br/>
+-----<br/>
+https://www.demoblaze.com/prod.html?idp_=1<br/>
+------<br/>
+Agregando producto al carrito de compra...<br/>
+Texto de alerta: Product added<br/>
+Regresando a la página de inicio<br/>
+Detalle del producto: Nokia lumia 1520<br/>
+-----<br/>
+https://www.demoblaze.com/prod.html?idp_=2<br/>
+------<br/>
+Agregando producto al carrito de compra...<br/>
+Texto de alerta: Product added<br/>
+Regresando a la página de inicio<br/>
+Abriendo detalle del carrrito<br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+Productos agregados: 2<br/>
+Detalle: <br/>
+Imagen: https://www.demoblaze.com/imgs/galaxy_s6.jpg<br/>
+Titulo: Samsung galaxy s6<br/>
+Precio: 360<br/>
+Link: Delete<br/>
+ <br/>
+ <br/>
+Imagen: https://www.demoblaze.com/imgs/galaxy_s6.jpg<br/>
+Titulo: Samsung galaxy s7<br/>
+Precio: 800<br/>
+Link: Delete<br/>
+ <br/>
+ <br/>
+Total: 2780<br/>
+Activación de botón 'place order': true<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>TiendaTest@2a7b6f69</td></tr>
+</table><p>
+</body>
+</html>
